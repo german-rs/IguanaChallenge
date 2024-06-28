@@ -1,0 +1,206 @@
+/*
+    Nombre estudiante: Germán A. Riveros Sepúlveda.
+    Generación: 14.
+    Jornada: Vespertina.
+*/
+
+
+body * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    background-color: #000000;
+}
+
+/* Sección de navegación */
+nav{
+    text-align: center;
+    padding: 5px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+h1 {
+    color: #ffffff;
+    font-weight: 500;
+    padding: 10px;
+}
+
+nav a h1:hover{
+    color: #28a739;
+}
+/* Sección de navegación */
+
+
+/* Sección de héroe   */
+header {
+    background-image: url(../img/bg-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 600px;
+}
+/* Fin sección de héroe */
+
+
+/* Sección de descripción  */
+.desc-section {
+    padding: 40px;
+    text-align: center;
+}
+
+.desc-section,
+.txt_container,
+.img_container {
+    vertical-align: middle;
+}
+
+.txt_container {
+    margin-top: 20px;
+    color: #ffffff;
+    width: 450px;
+    height: auto;
+    display: inline-block;
+}
+
+.txt_container p {
+    text-align: left;
+}
+
+.img_container {
+    width: 450px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.img_container img {
+    width: 400px;
+    height: auto;
+
+    /* Animación */
+    transition: border-radius 0.5s ease-in-out, transform 0.6s ease; 
+}
+
+    /* Animación */
+.img_container img:hover {
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
+/* Fin sección de descripción  */
+
+
+/* Sección de iconos */
+.icons-section {
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    background-color: #1e1a13;
+}
+
+.icons-section h2 {
+    color: #ffffff;
+    font-weight: 300;
+    padding: 50px;
+    background-color: #1e1a13;
+}
+
+.icons-section div {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: inline-block;
+    text-align: center;
+    background-color: transparent;
+    padding: 10px;
+    
+    /* Animación */
+    transition: transform 0.6s ease;
+}
+
+    /* Animación */
+.icons-section div:hover {
+    -webkit-transform: rotate(360deg); 
+    transform: rotate(360deg);
+}
+
+.icons-section i {
+    background-color: #1e1a13;
+    font-size: 30px;
+    display: block;
+}
+
+.icons-section span {
+    background-color: #1e1a13;
+    margin-top: 20px;
+    font-weight: 100;
+    font-size: 20px;
+    display: block;
+}
+/* Fin sección de iconos */
+
+
+/* Sección de fotografías */
+.foto-section article {
+    align-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.foto-section div {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+
+    /* Animación */
+    overflow: hidden;
+}
+
+.foto-section img {
+    width: 320px;
+    height: 220px;
+
+    /* Animación */
+    transition: transform 0.1s ease;
+}
+
+    /* Animación */
+.foto-section img:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+/* Fin sección de fotografías */
+
+
+/* Pie de página */
+footer {
+    background-color: #1e1a13;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer p {
+    background-color: #1e1a13;
+    font-weight: 200;
+    padding: 40px;
+}
+
+footer a {
+    background-color: #1e1a13;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #28a739;
+}
+/* Fin pie de página */
